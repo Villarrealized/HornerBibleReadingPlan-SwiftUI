@@ -11,9 +11,9 @@
 		EB8DACC72C6D80460044DA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACC62C6D80460044DA9F /* ContentView.swift */; };
 		EB8DACC92C6D80470044DA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8DACC82C6D80470044DA9F /* Assets.xcassets */; };
 		EB8DACCD2C6D80470044DA9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */; };
-		EB8DACD72C6D80470044DA9F /* HornerBibleReadingPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */; };
-		EB8DACE12C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */; };
-		EB8DACE32C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */; };
+		EB8DACF02C6D97170044DA9F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACEF2C6D97170044DA9F /* Helper.swift */; };
+		EB8DACF22C6D99C40044DA9F /* plan.json in Resources */ = {isa = PBXBuildFile; fileRef = EB8DACF12C6D99C40044DA9F /* plan.json */; };
+		EB8DACF42C6D9A240044DA9F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACF32C6D9A240044DA9F /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 		EB8DACCA2C6D80470044DA9F /* HornerBibleReadingPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HornerBibleReadingPlan.entitlements; sourceTree = "<group>"; };
 		EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB8DACD22C6D80470044DA9F /* HornerBibleReadingPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HornerBibleReadingPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanTests.swift; sourceTree = "<group>"; };
 		EB8DACDC2C6D80470044DA9F /* HornerBibleReadingPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HornerBibleReadingPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanUITests.swift; sourceTree = "<group>"; };
-		EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB8DACEF2C6D97170044DA9F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EB8DACF12C6D99C40044DA9F /* plan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plan.json; sourceTree = "<group>"; };
+		EB8DACF32C6D9A240044DA9F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				EB8DACC32C6D80460044DA9F /* HornerBibleReadingPlan */,
-				EB8DACD52C6D80470044DA9F /* HornerBibleReadingPlanTests */,
-				EB8DACDF2C6D80470044DA9F /* HornerBibleReadingPlanUITests */,
 				EB8DACC22C6D80460044DA9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				EB8DACC42C6D80460044DA9F /* HornerBibleReadingPlanApp.swift */,
+				EB8DACEF2C6D97170044DA9F /* Helper.swift */,
+				EB8DACF32C6D9A240044DA9F /* Book.swift */,
+				EB8DACF12C6D99C40044DA9F /* plan.json */,
 				EB8DACC62C6D80460044DA9F /* ContentView.swift */,
 				EB8DACC82C6D80470044DA9F /* Assets.xcassets */,
 				EB8DACCA2C6D80470044DA9F /* HornerBibleReadingPlan.entitlements */,
@@ -110,23 +111,6 @@
 				EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EB8DACD52C6D80470044DA9F /* HornerBibleReadingPlanTests */ = {
-			isa = PBXGroup;
-			children = (
-				EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */,
-			);
-			path = HornerBibleReadingPlanTests;
-			sourceTree = "<group>";
-		};
-		EB8DACDF2C6D80470044DA9F /* HornerBibleReadingPlanUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */,
-				EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */,
-			);
-			path = HornerBibleReadingPlanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +219,7 @@
 			files = (
 				EB8DACCD2C6D80470044DA9F /* Preview Assets.xcassets in Resources */,
 				EB8DACC92C6D80470044DA9F /* Assets.xcassets in Resources */,
+				EB8DACF22C6D99C40044DA9F /* plan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8DACF42C6D9A240044DA9F /* Book.swift in Sources */,
 				EB8DACC72C6D80460044DA9F /* ContentView.swift in Sources */,
 				EB8DACC52C6D80460044DA9F /* HornerBibleReadingPlanApp.swift in Sources */,
+				EB8DACF02C6D97170044DA9F /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8DACD72C6D80470044DA9F /* HornerBibleReadingPlanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8DACE12C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift in Sources */,
-				EB8DACE32C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +403,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bible Plan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +443,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bible Plan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

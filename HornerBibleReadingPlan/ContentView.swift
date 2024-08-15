@@ -8,14 +8,51 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var readingPlan = ReadingPlan(jsonFile: "plan.json")
+    @State var showInputDialog = false
+    @State var inputText: String = ""
+    
+    #if os(iOS)
+        let nextPlacement = ToolbarItemPlacement.navigationBarTrailing
+        let prevPlacement = ToolbarItemPlacement.navigationBarLeading
+    #else
+        let nextPlacement = ToolbarItemPlacement.primaryAction
+        let prevPlacement = ToolbarItemPlacement.secondaryAction
+    #endif
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(readingPlan.today) { chapter in
+                    Text(chapter.name)
+                }
+            }
+            .navigationTitle("Day \(readingPlan.day)")
+            .toolbar {
+                ToolbarItem(placement: nextPlacement) {
+                    Button("Next") {
+                        readingPlan.setDay(newValue: readingPlan.day + 1)
+                    }
+                }
+                ToolbarItem(placement: .secondaryAction) {
+                    Button("Goto") {
+                        showInputDialog = true
+                    }.alert("Enter Day", isPresented: $showInputDialog) {
+                        TextField("Enter day", text: $inputText).keyboardType(.numberPad)
+                        Button("Go") {
+                            readingPlan.setDay(newValue: Int(inputText) ?? readingPlan.day)
+                        }
+                    } message: {
+                        Text("Skip to any day in the plan")
+                    }
+                }
+                ToolbarItem(placement: prevPlacement) {
+                    Button("Previous") {
+                        readingPlan.setDay(newValue: readingPlan.day - 1)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 

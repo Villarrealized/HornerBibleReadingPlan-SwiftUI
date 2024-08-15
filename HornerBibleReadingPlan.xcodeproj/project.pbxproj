@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8DACC52C6D80460044DA9F /* HornerBibleReadingPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACC42C6D80460044DA9F /* HornerBibleReadingPlanApp.swift */; };
+		EB8DACC72C6D80460044DA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACC62C6D80460044DA9F /* ContentView.swift */; };
+		EB8DACC92C6D80470044DA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8DACC82C6D80470044DA9F /* Assets.xcassets */; };
+		EB8DACCD2C6D80470044DA9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */; };
+		EB8DACD72C6D80470044DA9F /* HornerBibleReadingPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */; };
+		EB8DACE12C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */; };
+		EB8DACE32C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8DACD32C6D80470044DA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DACB92C6D80450044DA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DACC02C6D80460044DA9F;
+			remoteInfo = HornerBibleReadingPlan;
+		};
+		EB8DACDD2C6D80470044DA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8DACB92C6D80450044DA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8DACC02C6D80460044DA9F;
+			remoteInfo = HornerBibleReadingPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB8DACC12C6D80460044DA9F /* HornerBibleReadingPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HornerBibleReadingPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DACC42C6D80460044DA9F /* HornerBibleReadingPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanApp.swift; sourceTree = "<group>"; };
+		EB8DACC62C6D80460044DA9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB8DACC82C6D80470044DA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB8DACCA2C6D80470044DA9F /* HornerBibleReadingPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HornerBibleReadingPlan.entitlements; sourceTree = "<group>"; };
+		EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8DACD22C6D80470044DA9F /* HornerBibleReadingPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HornerBibleReadingPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanTests.swift; sourceTree = "<group>"; };
+		EB8DACDC2C6D80470044DA9F /* HornerBibleReadingPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HornerBibleReadingPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanUITests.swift; sourceTree = "<group>"; };
+		EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornerBibleReadingPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8DACBE2C6D80460044DA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACCF2C6D80470044DA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACD92C6D80470044DA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8DACB82C6D80450044DA9F = {
+			isa = PBXGroup;
+			children = (
+				EB8DACC32C6D80460044DA9F /* HornerBibleReadingPlan */,
+				EB8DACD52C6D80470044DA9F /* HornerBibleReadingPlanTests */,
+				EB8DACDF2C6D80470044DA9F /* HornerBibleReadingPlanUITests */,
+				EB8DACC22C6D80460044DA9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8DACC22C6D80460044DA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DACC12C6D80460044DA9F /* HornerBibleReadingPlan.app */,
+				EB8DACD22C6D80470044DA9F /* HornerBibleReadingPlanTests.xctest */,
+				EB8DACDC2C6D80470044DA9F /* HornerBibleReadingPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8DACC32C6D80460044DA9F /* HornerBibleReadingPlan */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DACC42C6D80460044DA9F /* HornerBibleReadingPlanApp.swift */,
+				EB8DACC62C6D80460044DA9F /* ContentView.swift */,
+				EB8DACC82C6D80470044DA9F /* Assets.xcassets */,
+				EB8DACCA2C6D80470044DA9F /* HornerBibleReadingPlan.entitlements */,
+				EB8DACCB2C6D80470044DA9F /* Preview Content */,
+			);
+			path = HornerBibleReadingPlan;
+			sourceTree = "<group>";
+		};
+		EB8DACCB2C6D80470044DA9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DACCC2C6D80470044DA9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB8DACD52C6D80470044DA9F /* HornerBibleReadingPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DACD62C6D80470044DA9F /* HornerBibleReadingPlanTests.swift */,
+			);
+			path = HornerBibleReadingPlanTests;
+			sourceTree = "<group>";
+		};
+		EB8DACDF2C6D80470044DA9F /* HornerBibleReadingPlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DACE02C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift */,
+				EB8DACE22C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift */,
+			);
+			path = HornerBibleReadingPlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8DACC02C6D80460044DA9F /* HornerBibleReadingPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DACE62C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlan" */;
+			buildPhases = (
+				EB8DACBD2C6D80460044DA9F /* Sources */,
+				EB8DACBE2C6D80460044DA9F /* Frameworks */,
+				EB8DACBF2C6D80460044DA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HornerBibleReadingPlan;
+			productName = HornerBibleReadingPlan;
+			productReference = EB8DACC12C6D80460044DA9F /* HornerBibleReadingPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB8DACD12C6D80470044DA9F /* HornerBibleReadingPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DACE92C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlanTests" */;
+			buildPhases = (
+				EB8DACCE2C6D80470044DA9F /* Sources */,
+				EB8DACCF2C6D80470044DA9F /* Frameworks */,
+				EB8DACD02C6D80470044DA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DACD42C6D80470044DA9F /* PBXTargetDependency */,
+			);
+			name = HornerBibleReadingPlanTests;
+			productName = HornerBibleReadingPlanTests;
+			productReference = EB8DACD22C6D80470044DA9F /* HornerBibleReadingPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB8DACDB2C6D80470044DA9F /* HornerBibleReadingPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8DACEC2C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlanUITests" */;
+			buildPhases = (
+				EB8DACD82C6D80470044DA9F /* Sources */,
+				EB8DACD92C6D80470044DA9F /* Frameworks */,
+				EB8DACDA2C6D80470044DA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8DACDE2C6D80470044DA9F /* PBXTargetDependency */,
+			);
+			name = HornerBibleReadingPlanUITests;
+			productName = HornerBibleReadingPlanUITests;
+			productReference = EB8DACDC2C6D80470044DA9F /* HornerBibleReadingPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8DACB92C6D80450044DA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					EB8DACC02C6D80460044DA9F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					EB8DACD12C6D80470044DA9F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = EB8DACC02C6D80460044DA9F;
+					};
+					EB8DACDB2C6D80470044DA9F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = EB8DACC02C6D80460044DA9F;
+					};
+				};
+			};
+			buildConfigurationList = EB8DACBC2C6D80450044DA9F /* Build configuration list for PBXProject "HornerBibleReadingPlan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB8DACB82C6D80450044DA9F;
+			productRefGroup = EB8DACC22C6D80460044DA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8DACC02C6D80460044DA9F /* HornerBibleReadingPlan */,
+				EB8DACD12C6D80470044DA9F /* HornerBibleReadingPlanTests */,
+				EB8DACDB2C6D80470044DA9F /* HornerBibleReadingPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8DACBF2C6D80460044DA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DACCD2C6D80470044DA9F /* Preview Assets.xcassets in Resources */,
+				EB8DACC92C6D80470044DA9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACD02C6D80470044DA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACDA2C6D80470044DA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8DACBD2C6D80460044DA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DACC72C6D80460044DA9F /* ContentView.swift in Sources */,
+				EB8DACC52C6D80460044DA9F /* HornerBibleReadingPlanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACCE2C6D80470044DA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DACD72C6D80470044DA9F /* HornerBibleReadingPlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8DACD82C6D80470044DA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DACE12C6D80470044DA9F /* HornerBibleReadingPlanUITests.swift in Sources */,
+				EB8DACE32C6D80470044DA9F /* HornerBibleReadingPlanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8DACD42C6D80470044DA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DACC02C6D80460044DA9F /* HornerBibleReadingPlan */;
+			targetProxy = EB8DACD32C6D80470044DA9F /* PBXContainerItemProxy */;
+		};
+		EB8DACDE2C6D80470044DA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8DACC02C6D80460044DA9F /* HornerBibleReadingPlan */;
+			targetProxy = EB8DACDD2C6D80470044DA9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB8DACE42C6D80470044DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB8DACE52C6D80470044DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB8DACE72C6D80470044DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HornerBibleReadingPlan/HornerBibleReadingPlan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HornerBibleReadingPlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB8DACE82C6D80470044DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HornerBibleReadingPlan/HornerBibleReadingPlan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HornerBibleReadingPlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB8DACEA2C6D80470044DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HornerBibleReadingPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HornerBibleReadingPlan";
+			};
+			name = Debug;
+		};
+		EB8DACEB2C6D80470044DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HornerBibleReadingPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HornerBibleReadingPlan";
+			};
+			name = Release;
+		};
+		EB8DACED2C6D80470044DA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HornerBibleReadingPlan;
+			};
+			name = Debug;
+		};
+		EB8DACEE2C6D80470044DA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 825GXH2M7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvillarreal.HornerBibleReadingPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HornerBibleReadingPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8DACBC2C6D80450044DA9F /* Build configuration list for PBXProject "HornerBibleReadingPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DACE42C6D80470044DA9F /* Debug */,
+				EB8DACE52C6D80470044DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DACE62C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DACE72C6D80470044DA9F /* Debug */,
+				EB8DACE82C6D80470044DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DACE92C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DACEA2C6D80470044DA9F /* Debug */,
+				EB8DACEB2C6D80470044DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8DACEC2C6D80470044DA9F /* Build configuration list for PBXNativeTarget "HornerBibleReadingPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DACED2C6D80470044DA9F /* Debug */,
+				EB8DACEE2C6D80470044DA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8DACB92C6D80450044DA9F /* Project object */;
+}
